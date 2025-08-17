@@ -1,0 +1,6 @@
+print("HELLO WORLD ! My self cosmic-astra. I am learning python ")
+a= bool(0)
+b=bool(1)
+c=bool(2)
+d=bool(-1)
+print(f"a={a} b={b} c={c} d={d}")

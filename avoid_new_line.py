@@ -1,0 +1,7 @@
+print(f"a")
+print(f"b")
+print(f"c" ,end="    ")
+print(f"d")
+print(f"a")
+print(f"e",end="")
+print(f"f")
