@@ -1,0 +1,2 @@
+This is file4 created manually as r+ mode do not create file.
+this is added from file writemode.py

@@ -1,0 +1,6 @@
+This is already wriiten in file1 manually.
+This line is created by reading_writing.py file using python.
+Checking again
+
+This line is created by reading_writing.py file using python.
+Checking again

@@ -1,0 +1,7 @@
+f=open("file3.txt", "a+")
+f.seek(0)
+print(f.read())
+f.write("\ntHIS IS ADDED using a mode from append_read.py file.")
+f.seek(0)
+print(f.read())
+f.close()
