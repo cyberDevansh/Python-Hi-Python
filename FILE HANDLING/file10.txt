@@ -1,0 +1,1 @@
+This is present in the file00.txt but using os module of python its content moved to the file10.txt and old file00.txt is removed.
