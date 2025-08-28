@@ -6,7 +6,7 @@ def play_round():
         userchoice = input("Enter your choice (Stone, Paper, Scissors): ").lower()
         
         if userchoice not in choices:
-            print("⚠️ You miss-typed or broke the rule! Try again.")
+            print("You miss-typed or broke the rule! Try again.")
             return None
 
         computer_choice = random.choice(choices)
@@ -18,7 +18,7 @@ def play_round():
         elif (userchoice == "stone" and computer_choice == "scissors") or (userchoice == "paper" and computer_choice == "stone") or (userchoice == "scissors" and computer_choice == "paper"):
             print("✅ You win!")
         else:
-            print("❌ You lost to the computer.")
+            print(" You lost to the computer.")
     
     except Exception:
         print("Something went wrong!")
