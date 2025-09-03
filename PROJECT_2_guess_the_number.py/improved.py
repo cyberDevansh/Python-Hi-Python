@@ -12,7 +12,7 @@ def guess_the_number():
             guess = int(input("Enter your guess: "))
             
             if guess == number:
-                print("🎉 Correct! You guessed it right.")
+                print("Correct! You guessed it right.")
                 break  
             elif guess < number:
                 print("Too low!")
@@ -25,7 +25,7 @@ def guess_the_number():
         if attempts == 0:
             print(f"Out of attempts! The correct number was {number}.")
 
-    # after 3 rounds
+
     choice = input("\nDo you want to play again? (y/n): ")
     if choice.lower() == "y":
         guess_the_number()

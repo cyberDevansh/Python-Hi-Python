@@ -1,11 +1,11 @@
 import math
 
 def calculator():
-    print("=== Upgraded Calculator ===")
-    print("Operations: +, -, *, /, ^ (power), sqrt (square root)")
+    print("================== Upgraded Calculator =================")
+    print("Operations: +(add), -(minus), *(multiply), /(divide), ^ (power), sqrt (square root)")
     print("Type 'exit' anytime to quit.")
     
-    memory = None  # for storing last result
+    memory = None  # i am storing last result
 
     while True:
         user_input = input("\nEnter expression (or type 'exit'): ")

@@ -10,14 +10,13 @@ def guess_the_number():
         guess = int(input("Enter your guess: "))
 
         if guess == number:
-            print("🎉 Correct! You guessed it right.")
+            print("Correct! You guessed it right.")
         else:
-            print(f"❌ Wrong! The number was {number}.")
+            print(f"Wrong! The number was {number}.")
 
     choice = input("\nDo you want to play again 3 more rounds? (y/n): ")
     if choice.lower() == "y":
         guess_the_number() 
-        print("Thanks for playing! 👋")
     else:
         print("thank for playing ")
 
