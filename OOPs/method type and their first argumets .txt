@@ -1,0 +1,4 @@
+Method Type	      First Argument	Access Instance Data?	Access Class Data?	      When to Use
+Instance Method	    self	           ✅ Yes	              ✅ Yes	           When you need object data (most common).
+Class Method	    cls	               ❌ No	                  ✅ Yes	           When you need to work with the class itself (like factories, configs).
+Static Method	    none	           ❌ No	                  ❌ No	           When you just want a utility/helper function inside the class.
