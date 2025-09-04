@@ -6,6 +6,7 @@
 class Employee:
     def __init__(self, name):
         self.name = name
-        print("Object created!")
+        print(f"Object created! {self.name}")
 
 p = Employee("Guppe")
+print(p.name)

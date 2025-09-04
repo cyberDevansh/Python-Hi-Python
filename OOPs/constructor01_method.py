@@ -6,7 +6,7 @@ class Employee:
         print(f"Language is {self.language}. Salary is {self.salary}")
     
     def __init__(self):
-        print("I am creating a object which is called automatically(pythons dunder method)")
+        print("I am creating a object which is called automatically (pythons dunder method)")
 
     @staticmethod
     def greet():
