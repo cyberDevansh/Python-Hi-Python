@@ -20,7 +20,8 @@ class Demo:
 obj = Demo()   # create an object
 
 # Instance method
-obj.instance_method(10)        # call using object
+obj.instance_method(10)        # call using object { Python automatically converts this into: Demo.instance_method(obj, 10)  }
+
 Demo.instance_method(obj, 10)  # same call explicitly
 
 # Class method
